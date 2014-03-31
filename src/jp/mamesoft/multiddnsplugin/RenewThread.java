@@ -17,7 +17,7 @@ public class RenewThread extends TimerTask {
 			getrequest("http://ddo.jp/dnsupdate.php?dn=%domain%&pw=%pass%");
 			break;
 		case "ddojpfree":
-			getrequest("http://free.ddo.jp/dnsupdate.php?domain=%id%&pw=%pass%");
+			getrequest("http://free.ddo.jp/dnsupdate.php?dn=%domain%&pw=%pass%");
 			break;
 		case "valuedomain":
 			getrequest("http://dyn.value-domain.com/cgi-bin/dyn.fcg?d=%domain%&p=%pass%&h=%host%");
